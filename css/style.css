@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto,Arial,sans-serif;;
+    /* font-family: Arial, sans-serif; */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: rgb(241 237 237);
+}
+
+header {
+    background-color: #2874f0;
+    height: 60px;
+    /* width: 100vw; */
+    display: grid;
+    grid-template-columns: 18vw 37vw 10vw calc(100vw - 65vw);
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.search {
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.login {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.become-seller {
+    margin: 0px 24px;
+    /* color: white; */
+    line-height: 20px;
+    letter-spacing: .1px;
+    cursor: pointer;
+}
+
+.more-options {
+    margin: 0px 12px;
+    color: white;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart {
+    margin: 0px 32px;
+    color: white;
+    line-height: 20px;
+    letter-spacing: .1px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu {
+    height: 116px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(205 202 202);
+    background-color: white;
+    /* box-shadow: 0px 0px 5px 0px grey; */
+}
+
+.carousel-slide{
+    display: flex;
+    height: 300px;
+    position: absolute;
+}
+
+.carousel-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider-btn{
+    position: relative;
+    margin-top: 93px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+
+#prev-btn{
+    margin-left: 0px;
+    font-size: 46px;
+}
+
+#next-btn{
+    float: right;
+    margin-right: 0px;
+}
+
+.discount{
+    height: 110px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.sale-galary-1{
+    background-color: rgb(241 237 237);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.top-offers{
+    height: 370px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sale-galary-2{
+    background-color: rgb(241 237 237);
+    height: 750px;
+    display: flex;
+    align-items: unset;
+    justify-content: space-around;
+}
+
+.row{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.featured-brands{
+    background-color: black;
+    height: 300px;
+}
+
+.sale-galary-3{
+    background-color: rgb(241 237 237);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.best-of-electronics{
+    background-color: white;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(205 202 202);
+}
+
+.top-stories{
+    border-top: 1px solid rgb(205 202 202);
+    margin-top: 42px;
+    padding: 50px 30px 20px 25px;
+    background-color: white;
+}
+
+footer{
+    background-color: #172337;
+    height: 350px;
+}
+
+.footer-row{
+    height: 275px;
+    display: grid;
+    grid-template-columns: 750px 25px auto;
+    border-bottom: 1px solid rgb(112, 104, 104);
+}
+
+.footer-menu{
+    /* background-color: lightcoral; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px 60px 40px 60px;
+}
+
+/* .footer-menu-item{
+    border: 2px solid red;
+} */
+
+.items{
+    display: grid;
+}
+
+.footer-contact{
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 40px 0px 40px 0px;
+    /* border-left: 1px solid rgb(156, 149, 149); */
+}
+
+.divider{
+    margin-top: 35px;
+    width: 1px;
+    background-color: rgb(112, 104, 104);
+    height: 130px;
+}
+
+.footer-other{
+    height: calc(350px - 275px);
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+    padding: 0px 60px;
+    color: white;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.text{
+    padding: 0px 7px;
+    font-size: 12px;
+}
+
+.payment-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.electronic-items{
+    display: flex;
+}
+
+.electronic-item{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+

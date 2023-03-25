@@ -1,0 +1,206 @@
+#logo-img{
+    width: 75px;
+    height: 22px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#search-bar{
+    width: 450px;
+    height: 36px;
+    padding: 0px 12px;
+    border-radius: 1px;
+    border: 1px solid #b6c9e7;
+    font-size: 13px;
+    outline: none;
+}
+
+.login-btn{
+    background-color: white;
+    color: #2874f0;
+    padding: 7px 42px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 1px;
+    border: 1px solid #b6c9e7;
+    cursor: pointer;
+}
+
+#new-customer{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.login:hover .login-dropdown{
+    display: block;
+}
+
+.login-dropdown{
+    display: none;
+    background-color: white;
+    box-shadow: 1px 0px rgb(226, 217, 217);
+    width: 230px;
+    position: absolute;
+    top: 61px;
+    right: 426px;
+    z-index: 2;
+    border-radius: 4px;
+}
+
+#login-dropdown-arrow{
+    color: black;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+.login-dropdown-items ul li{
+    border-bottom: 1px solid rgb(233, 230, 230);
+    padding: 15px;
+    font-size: 14px;
+    list-style: none;
+}
+
+.login-dropdown-items ul li a{
+    color: black;
+}
+
+.login-dropdown-items ul li:hover{
+    cursor: pointer;
+    background-color: rgb(243, 240, 240);
+}
+
+.become-seller a{
+    color: white;
+}
+
+.more-options a{
+    color: white;
+}
+
+.more-options-dropdown{
+    display: none;
+    background-color: white;
+    box-shadow: 1px 0px rgb(226, 217, 217);
+    width: 230px;
+    position: absolute;
+    top: 61px;
+    right: 126px;
+    z-index: 2;
+    border-radius: 4px;
+}
+
+.more-options-dropdown-items ul li{
+    border-bottom: 1px solid rgb(233, 230, 230);
+    padding: 15px;
+    font-size: 14px;
+    list-style: none;
+    font-weight: 100;
+}
+
+.more-options-dropdown-items ul li a{
+    color: black;
+}
+
+#expand-more-icon {
+    color: #bbc9e7;
+    font-size: 15px;
+    padding: 5px 0px 0px 3px;
+}
+
+@keyframes animate-expand-more-icon {
+    from{
+        transform: rotate(0deg);
+        transform-origin: bottom;
+    }
+    to{
+        transform: rotate(180deg);
+        transform-origin: 12px 12px;
+    }
+}
+
+.more-options:hover .more-options-dropdown{
+    display: block;
+}
+
+.more-options:hover #expand-more-icon{
+    animation: animate-expand-more-icon 0.2s linear 0s 1 forwards;
+}
+
+.more-options-dropdown-items ul li:hover{
+    /* cursor: pointer;
+    background-color: rgb(243, 240, 240); */
+    background-color: red;
+}
+
+.cart a{
+    color: white;
+}
+
+#cart-icon {
+    color: #fff;
+    /* font-size: 15px; */
+    padding: 5px 8px 0px 3px;
+}
+
+.menu-option p{
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.menu-option :hover {
+    cursor: pointer;
+    /* background-color: yellow; */
+    color: #2874f0;
+}
+
+.menu-option img {
+    width: 72px;
+    height: 72px;
+    padding: 10px 10px 0px 10px;
+}
+
+.top-stories h4{
+    padding: 10px 0px;
+    color: rgb(112, 104, 104);
+    font-weight: bold;
+}
+
+.top-stories p{
+    color: rgb(112, 104, 104);
+    font-size: 11px;
+}
+
+.heading{
+    color: rgb(112, 104, 104);
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.items a{
+    padding-bottom: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.items p{
+    color: white;
+}
+
+.footer-icons{
+    color: yellow;
+    font-size: 2px;
+}
+
+.payment-cards img{
+    width: 35px;
+    height: 20px;
+}
+
+
+
